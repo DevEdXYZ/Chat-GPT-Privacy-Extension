@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Chat-GPT-Privacy-Extension",
+    "version": "1.0",
+    "description": "A Chrome extension that hides the chat history on ChatGPT page",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["https://chat.openai.com/*"],
+    "action": {
+        "default_icon": {
+            "48": "eye.png"
+        },
+        "default_title": "Toggle Chat Visibility"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://chat.openai.com/*"],
+            "js": ["chatHider.js"]
+        }
+    ],
+    "icons": {
+        "48": "eye.png"
+    },
+    "web_accessible_resources": [
+        {
+          "resources": ["eye-open.svg", "eye-closed.svg"],
+          "matches": ["https://chat.openai.com/*"]
+        }
+    ]
+    
+}
