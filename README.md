@@ -1,6 +1,6 @@
 # Chat-GPT-Privacy-Extension
 
-A Chrome extension that hides the chat history on ChatGPT page. 🔒🤐
+A Chrome extension that hides the chat history on ChatGPT page. 🔒
 
 ![Extension Icon](./eye.png)
 
@@ -11,7 +11,7 @@ Chat-GPT-Privacy-Extension is a Chrome extension designed to enhance privacy whi
 ## Features
 
 - Hide or show the chat history with a click of an eye icon. 👁️
-- Improved privacy and reduced distractions. 🙅‍♀️🔇
+- Improved privacy and reduced distractions. 🙅‍♀️
 - Easy installation and usage. 🚀
 
 ## Installation
